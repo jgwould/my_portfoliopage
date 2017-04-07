@@ -1,4 +1,14 @@
 
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 110%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+
 .about{
 background-image: url('https://raw.githubusercontent.com/jgwould/my_portfoliopage/master/myportfolio_background.jpg'); 
 width: 100%; 
@@ -15,43 +25,48 @@ margin: 0 auto;
 	font-family: Georgia;
 	text-align: center;
 	color: #943E0F;
-	padding-top: 20%;
+	padding-top: 10%;
+	font-size: 150%;
 
-}
-.name:hover{
-	color: #9F572B;
 }
 
 .info{
-	color: #5A5433;
+	color: #5F6031;
 	padding: 0px;
 }
 
-.info:hover{
-	color: #5F6031;
-}
-
 .resume{
-	color: #356045;
+	color: #3D5A41;
 }
 .resume:hover{
-	color: #3F7F60;
+	color: #719444;
+}
+
+.photo{
+	max-width: 20%;
+	max-height: 30%;
+	float: right;
+	padding-top: 100px;
+	padding-right: 70px;
 }
 
 .portfolio{
 	width: 100%; 
 	height: 1000px;
 	text-align: center;
-	background-color: #734523;
+	background-color: #3D5A41;
 	background-size: cover;
-	color: #28726E;
+	color: #8E8474;
+	padding-top: 20px;
 }
 
 .contact{
 	width: 100%;
 	height: 500px;
 	text-align: center;
-	background-color: #6A5C55;
+	background-color: #8E8474;
+	color: #3D5A41;
+	padding-top: 20px;
 }
 
 .navbar{
@@ -60,22 +75,28 @@ margin: 0 auto;
 	padding: 0;
 	display: inline;
 	display: block;
-	float: right;
 	border: 1px solid #555;
 	overflow: hidden;
 	position: fixed;
+	top: 0;
+	color: #206E4F;
+	background-color: #8E8474;
+	box-sizing: border-box;
+	float: left;
 }
 
 .navbar li{
 	list-style-type: none;
-	float: right;
 	padding: 8px;
-	background-color: grey;
+	background-color: #8E8474;
 	width: 100px;
 	display: block;
 	text-decoration: none;
 	display: inline;
-
-
+	float: left;
 }
 
+.navbar li:hover{
+	color: #F5F5DC;
+	background-color: #CBBB9B;
+}
