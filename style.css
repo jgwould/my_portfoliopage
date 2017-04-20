@@ -18,6 +18,7 @@ background-size: cover;
 display: block;
 padding: 0px;
 margin: 0 auto;
+font-size: 120%;
 
 }
 
@@ -57,7 +58,8 @@ margin: 0 auto;
 	background-color: #3D5A41;
 	background-size: cover;
 	color: #8E8474;
-	padding-top: 20px;
+	padding-top: 40px;
+	font-size: 120%;
 }
 
 .contact{
@@ -66,7 +68,9 @@ margin: 0 auto;
 	text-align: center;
 	background-color: #8E8474;
 	color: #3D5A41;
-	padding-top: 20px;
+	padding-top: 40px;
+	font-size: 120%;
+
 }
 
 .navbar{
@@ -75,7 +79,8 @@ margin: 0 auto;
 	padding: 0;
 	display: inline;
 	display: block;
-	border: 1px solid #555;
+	border: 1px #000000;
+	box-shadow: 0px 0px 10px 0px grey;
 	overflow: hidden;
 	position: fixed;
 	top: 0;
@@ -83,6 +88,7 @@ margin: 0 auto;
 	background-color: #8E8474;
 	box-sizing: border-box;
 	float: left;
+	border: 2px #696969;
 }
 
 .navbar li{
@@ -94,9 +100,72 @@ margin: 0 auto;
 	text-decoration: none;
 	display: inline;
 	float: left;
+	text-align: center;
+	vertical-align: center;
+	font-size: 90%;
+	font-style: bold;
 }
 
 .navbar li:hover{
 	color: #F5F5DC;
 	background-color: #CBBB9B;
 }
+
+a{
+	text-decoration: inherit;
+	color: inherit; 
+
+}
+.contact_form{
+	height: 400px;
+	width: 400px;
+	float: left;
+	background-color: silver;
+	border: 1px solid black;
+	font-size: 80%;
+	border-radius: 10px;
+	margin:40px 0px 0px 40px;
+
+}
+#fname{
+	border-bottom: 1px solid black; 
+	padding: 10px;
+	margin: 10px;
+}
+#lname{
+	border-bottom: 1px solid black;
+	padding: 10px;
+	margin: 10px;
+}
+#email{
+	border-bottom: 1px solid black;
+	padding: 10px;
+	margin: 10px;
+}
+#info{
+	border-bottom: 1px solid black; 
+	padding: 10px;
+	margin: 10px;
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
