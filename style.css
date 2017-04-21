@@ -118,14 +118,15 @@ a{
 
 }
 .contact_form{
-	height: 500px;
-	width: 400px;
+	height: 80%;
+	width: 40%;
 	float: left;
 	background-color: silver;
 	border: 1px solid black;
 	font-size: 80%;
 	border-radius: 10px;
-	margin:40px 0px 0px 40px;
+	margin:40px 40px 40px 40px;
+	overflow: hidden;
 
 }
 #fname{
@@ -145,9 +146,9 @@ a{
 }
 #info{ 
 	height: 180px;
-	width: 300px;
-	padding-left: 35px;
+	width: 80%;
 	padding-top: 10px;
+	text-align: center;
 }
 
 #submit{
@@ -167,14 +168,25 @@ a{
 	border-radius: 10px;
 	font-weight: bold;
 
-
-
 }
 
-
-
-
-
+.find_me{
+	height: 80%;
+	width: 40%;
+	border: 1px solid black;
+	font-size: 80%;
+	border-radius: 10px;
+	margin:40px 40px 40px 40px;
+	float: right;
+	overflow: hidden;
+	background-color: #8E8474;
+}
+.jg_prof{
+	max-height: 50%;
+	max-width: 50%;
+	border-radius: 10px;
+	margin-top: 40px;
+}
 
 
 
