@@ -64,7 +64,7 @@ font-size: 120%;
 
 .contact{
 	width: 100%;
-	height: 500px;
+	height: 600px;
 	text-align: center;
 	background-color: #8E8474;
 	color: #3D5A41;
@@ -103,12 +103,13 @@ font-size: 120%;
 	text-align: center;
 	vertical-align: center;
 	font-size: 90%;
-	font-style: bold;
+	font-weight: bold;
 }
 
 .navbar li:hover{
 	color: #F5F5DC;
 	background-color: #CBBB9B;
+	cursor: pointer; cursor: hand;
 }
 
 a{
@@ -117,7 +118,7 @@ a{
 
 }
 .contact_form{
-	height: 400px;
+	height: 500px;
 	width: 400px;
 	float: left;
 	background-color: silver;
@@ -142,18 +143,33 @@ a{
 	padding: 10px;
 	margin: 10px;
 }
-#info{
-	border-bottom: 1px solid black; 
-	padding: 10px;
-	margin: 10px;
-	
-
+#info{ 
+	height: 180px;
+	width: 300px;
+	padding-left: 35px;
+	padding-top: 10px;
 }
 
+#submit{
+	color: #626262;
+	background-color: silver;
+	border: 2px solid #626262;
+	border-radius: 10px;
+	height: 40px;
+	width: 150px;
+	margin-top: 5%;
+}
+#submit:hover{
+	cursor: pointer; cursor: hand;
+	background-color: #8E8474;
+	color: black;
+	border: 2px solid black;
+	border-radius: 10px;
+	font-weight: bold;
 
 
 
-
+}
 
 
 
