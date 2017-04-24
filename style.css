@@ -5,8 +5,8 @@
         border: 0;
         outline: 0;
         font-size: 110%;
-        vertical-align: baseline;
         background: transparent;
+
     }
 
 p{
@@ -16,7 +16,7 @@ p{
 .about{
 background-image: url('https://raw.githubusercontent.com/jgwould/my_portfoliopage/master/myportfolio_background.jpg'); 
 width: 100%; 
-height: 500px;
+height: 100%;
 text-align: center;
 background-size: cover;
 display: block;
@@ -51,29 +51,33 @@ font-size: 120%;
 	max-width: 20%;
 	max-height: 30%;
 	float: right;
-	padding-top: 100px;
-	padding-right: 70px;
+	margin-top: 100px;
+	margin-right: 70px;
+	border-radius: 10px;
 }
 
 .portfolio{
 	width: 100%; 
-	height: 1000px;
+	height: 100%;
 	text-align: center;
 	background-color: #3D5A41;
 	background-size: cover;
 	color: #8E8474;
-	padding-top: 40px;
 	font-size: 120%;
+	padding-top: 40px;
+	overflow: auto;
 }
 
 .contact{
 	width: 100%;
-	height: 600px;
+	height: 100%;
 	text-align: center;
 	background-color: #8E8474;
 	color: #3D5A41;
 	padding-top: 40px;
 	font-size: 120%;
+	overflow: auto;
+
 
 }
 
@@ -96,10 +100,13 @@ font-size: 120%;
 }
 
 .navbar li{
+	height: 40px;
 	list-style-type: none;
-	padding: 8px;
+	margin: : 8px;
+	padding-top: 10px;
+	padding-left: 12px;
+	padding-right: 12px;
 	background-color: #8E8474;
-	width: 100px;
 	display: block;
 	text-decoration: none;
 	display: inline;
@@ -114,6 +121,7 @@ font-size: 120%;
 	color: #F5F5DC;
 	background-color: #CBBB9B;
 	cursor: pointer; cursor: hand;
+	border-radius: 10px;
 }
 
 a{
@@ -130,7 +138,7 @@ a{
 	font-size: 80%;
 	border-radius: 10px;
 	margin:40px 40px 40px 40px;
-	overflow: hidden;
+	overflow: auto;
 
 }
 #fname{
@@ -149,7 +157,7 @@ a{
 	margin: 10px;
 }
 #info{ 
-	height: 180px;
+	height: 40%;
 	width: 80%;
 	padding-top: 10px;
 	text-align: center;
@@ -160,8 +168,8 @@ a{
 	background-color: silver;
 	border: 2px solid #626262;
 	border-radius: 10px;
-	height: 40px;
-	width: 150px;
+	height: 10%;
+	width: 40%;
 	margin-top: 5%;
 }
 #submit:hover{
@@ -181,8 +189,8 @@ a{
 	font-size: 80%;
 	border-radius: 10px;
 	margin:40px 40px 40px 40px;
+	overflow: auto;
 	float: right;
-	overflow: hidden;
 	background-color: #8E8474;
 }
 .jg_prof{
@@ -194,7 +202,6 @@ a{
 }
 .social_media{
 	color: black;
-	margi
 }
 
 .social_media li{
@@ -226,6 +233,45 @@ a{
 	font-weight: bold;
 	text-align: center;
 }
+.fillers{
+	padding-top: 10px;
+
+	display: inline-block;
+
+
+}
+
+.filler_one{
+	margin: 15px;
+	border-radius: 10px;
+}
+
+.filler_two{
+	margin: 15px;
+	border-radius: 10px;
+}
+.filler_three{
+	margin: 15px;
+	border-radius: 10px;
+}
+
+.filler_four{
+	margin: 15px;
+	border-radius: 10px;
+}
+
+.filler_five{
+	margin: 15px;	
+	border-radius: 10px;
+}
+
+.filler_six{
+	margin: 15px;
+	border-radius: 10px;
+}
+
+
+
 
 
 
