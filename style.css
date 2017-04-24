@@ -89,7 +89,7 @@ font-size: 120%;
 	display: block;
 	border: 1px #000000;
 	box-shadow: 0px 0px 10px 0px grey;
-	overflow: hidden;
+	overflow: auto;
 	position: fixed;
 	top: 0;
 	color: #206E4F;
@@ -191,7 +191,7 @@ a{
 	margin:40px 40px 40px 40px;
 	overflow: auto;
 	float: right;
-	background-color: #8E8474;
+	background-color: silver;
 }
 .jg_prof{
 	max-height: 50%;
@@ -235,8 +235,8 @@ a{
 }
 .fillers{
 	padding-top: 10px;
-
 	display: inline-block;
+	margin-bottom: 10px;
 
 
 }
@@ -270,10 +270,39 @@ a{
 	border-radius: 10px;
 }
 
+/* not in love with the hover delay and scale
 
+.filler_one:hover{
+	transition-delay: .1s;
+	transform: scale(1.05);
+}
 
+.filler_two:hover{
+	transition-delay: .1s;
+	transform: scale(1.05);
+}
 
+.filler_three:hover{
+	transition-delay: .1s;
+	transform: scale(1.05);
+}
 
+.filler_four:hover{
+	transition-delay: .1s;
+	transform: scale(1.05);
+}
+
+.filler_five:hover{
+	transition-delay: .1s;
+	transform: scale(1.05);
+}
+
+.filler_six:hover{
+	transition-delay: .1s;
+	transform: scale(1.05);
+}
+
+*/
 
 
 
